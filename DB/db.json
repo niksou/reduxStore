@@ -1,0 +1,97 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "name": "chips",
+      "price": 7,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Potato-Chips.jpg/330px-Potato-Chips.jpg"
+    },
+    {
+      "id": 2,
+      "name": "fish",
+      "price": 17,
+      "imageUrl": "https://images.theconversation.com/files/299379/original/file-20191030-154716-1wc4d64.jpg?ixlib=rb-1.1.0&rect=0%2C12%2C2048%2C1023&q=45&auto=format&w=1356&h=668&fit=crop"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "items": {
+        "dish_name": "chips",
+        "dish_price": 15,
+        "amount": 3
+      }
+    },
+    {
+      "id": 2,
+      "items": [
+        {
+          "dish_name": "fish",
+          "dish_price": 55,
+          "amount": 2
+        },
+        {
+          "dish_name": "chips",
+          "dish_price": 35,
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "dish_id": 1,
+          "dish_name": "chips",
+          "dish_price": 7,
+          "amount": 4
+        },
+        {
+          "dish_id": 2,
+          "dish_name": "fish",
+          "dish_price": 17,
+          "amount": 3
+        }
+      ],
+      "id": 3
+    },
+    {
+      "items": [
+        {
+          "dish_id": 1,
+          "dish_name": "chips",
+          "dish_price": 7,
+          "amount": 4
+        }
+      ],
+      "id": 4
+    },
+    {
+      "items": [
+        {
+          "dish_id": 1,
+          "dish_name": "chips",
+          "dish_price": 7,
+          "amount": 4
+        }
+      ],
+      "id": 5
+    },
+    {
+      "items": [
+        {
+          "dish_id": 1,
+          "dish_name": "chips",
+          "dish_price": 7,
+          "amount": 1
+        },
+        {
+          "dish_id": 2,
+          "dish_name": "fish",
+          "dish_price": 17,
+          "amount": 2
+        }
+      ],
+      "id": 6
+    }
+  ]
+}
