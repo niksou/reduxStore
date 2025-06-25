@@ -9,6 +9,9 @@ import {Box,Toolbar,Typography,Button,AppBar} from "@mui/material";
 function App() {
     const items = useSelector((state:any)=>state.cart)
     const navigate = useNavigate()
+    
+    console.log("niksou");
+    
   return (
     <>
         <Box>
